@@ -13,13 +13,15 @@
 // 0 to remove free attempt warning
 #define A_MALLOC_WARNING 1
 
+// define how much list will be created
+#define A_LIST_AMNT 10
+
 /**************************************/
 
 #define AUTO_FREE_MSG1 "(auto-malloc)Warning: Free attempt on list "
 #define AUTO_FREE_MSG2 " with no allocation call beforehand.\n"
 #define AUTO_FREE_NO_CALL_MSG "%s%d%s", AUTO_FREE_MSG1, list, AUTO_FREE_MSG2
 #define A_MALLOC_FREE 0
-#define A_LIST_AMNT 10
 #define LIST_MODE 0
 #define ARRAY_MODE 1
 
