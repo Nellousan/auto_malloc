@@ -1,7 +1,7 @@
 /*
 ** EPITECH PROJECT, 2020
 ** auto_malloc.h
-** File description:
+** Author
 ** 
 */
 
