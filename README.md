@@ -17,7 +17,7 @@ a_malloc(A_MALLOC_FREE | A_LIST(2));
 this will free the whole list 2.
 
 If a free attempt is made on a empty list, a warning message will occur, and nothing will be done.
-you can define how many list you want to use in the a_malloc.h.
-you can also define if warning message occurs in the a_malloc.h.
+you can define how many list you want to use in a_malloc.h.
+you can also define if warning message occurs in a_malloc.h.
 
 --------------------------------
