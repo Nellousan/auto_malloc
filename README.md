@@ -1,6 +1,6 @@
 # auto_malloc
 # Author: Nell Fauvau
-# Languague C/C++
+# Language C/C++
 Automatic malloc, stocked in linked lists
 
 ------------ USAGE -------------
