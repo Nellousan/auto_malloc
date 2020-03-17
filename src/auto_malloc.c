@@ -6,6 +6,7 @@
 */
 
 #include <stdlib.h>
+#include <stdio.h>
 #include "a_malloc.h"
 
 void *a_malloc_return(int size, a_malloc_t *a_list)
