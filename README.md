@@ -13,7 +13,7 @@ int main(void) {
   char *c = a_malloc(sizeof(char) * 10);           // This will be stored in list 0
   
   a_malloc(A_MALLOC_FREE);                         // This will free list 0 (list 2 pointers are still usable)
-  a_malloc(A_MALLOC_FREE | A_LIST(2);              // This will free list 2
+  a_malloc(A_MALLOC_FREE | A_LIST(2));              // This will free list 2
   
   return 0;
 }
