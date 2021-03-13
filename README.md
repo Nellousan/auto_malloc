@@ -22,4 +22,4 @@ int main(void) {
 I built this tool to help me make my school projects, meaning that i was forced to stick to school's coding style.\
 I could have done a separate function to free the lists but we're not able to use global variable so i had to use a static variable insides the a_malloc() function to do the trick.\
 \
-If you want to use this tool, please do. Just keep in mind that if you free() an a_malloc'd pointer, it will surely crash when calling the a_malloc's free, since there's no way to tell in c if a pointer has already been free'd. Also there's some parameters to customize in the auto_malloc.h file.
+If you want to use this tool, please do. Just keep in mind that if you free() an a_malloc'd pointer, it will surely crash when calling the a_malloc's free, since there's no easy way to tell in c if a pointer has already been free'd. Also there's some parameters to customize in the auto_malloc.h file.
